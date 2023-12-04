@@ -1,5 +1,11 @@
 /****  2.Operator  */
 
+  // comment แบบ 1 บรรทัด
+  /**
+   * หลายบรรทัด
+   * หลายบรรทัด
+   */
+
 void main() {
   // มี main เป็น method หลักในการทำงาน
   print("Hello");
