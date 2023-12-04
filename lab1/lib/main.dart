@@ -50,6 +50,7 @@ void main() {
 
   List<String> fruits = ['apple', 'banana', 'mango'];
   //var fruits = ['apple', 'banana', 'mango']; // ไม่ระบุชนิดข้อมูล //อ.ไม่ชอบ
+  print(fruits.length);
   fruits.add('orange');
   fruits.add('durian');
   print(fruits);
