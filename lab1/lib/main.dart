@@ -58,7 +58,7 @@ void main() {
   print(fruits);
   fruits.remove('banana');
   print(fruits);
-  fruits.remove(1);
+  fruits.remove(fruits[1]);
   print(fruits);
 
   for (var item in fruits) {
