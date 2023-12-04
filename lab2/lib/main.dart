@@ -115,12 +115,12 @@ void main(){
 */
 
 void main() {
-  firstClass fc = firstClass();
+  firstClass fc = new firstClass();
   fc.methodOne();
   print("Hello");
 
-  secondClass scOne = secondClass();
-  secondClass scTwo = secondClass();
+  secondClass scOne = new secondClass();
+  secondClass scTwo = new secondClass();
   scOne.disp();
   scOne.engine = "T-88";
   scOne.disp();
