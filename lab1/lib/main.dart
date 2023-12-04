@@ -44,6 +44,9 @@ void main() {
   //const int cs_x;
   //const int cs_x = 40;
 
+  //var x = 1000  //valid
+  //var int x = 1000 // invalid
+
   print(money);
   //print(num); // is not empty ;except dynamic
   print(getValue);
@@ -113,12 +116,14 @@ void main() {
   int age = 39;
   //print('Mr. ' + name + ' ' + surname + ' Age:' + age);
   print('Mr. ' + name + ' ' + surname + ' Age:' + age.toString());
+  var x = 'Mr. ' + name + ' ' + surname + ' Age:' + age.toString();
+  print(x)
 
   /* Cast Oper. */
   String x_cast = "30";
   String y_cast = "65.75";
   dynamic xy_result;
-  //xy_result = x_cast + 10; //int.parse(integer) //double.parse(double)
+  //xy_result = x_cast + 10; //int.parse(string) //double.parse(string)
   print(xy_result);
 
   /** if else
