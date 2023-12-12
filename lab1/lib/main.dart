@@ -87,6 +87,8 @@ void main() {
   print(profileMember['surname']);
   profileMember['surname'] = 'shanks wano';
   print(profileMember);
+  profileMember.addAll({'address':'khonkaen'});
+  print(profileMember);
 
   profileMember.forEach((key, value) {
     print('Key: $key => Value: $value');
