@@ -64,7 +64,7 @@ class MyApp extends StatelessWidget {
     /**return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text("BISShop"),
+          title: Text("BISShop"),backgroundColor: Colors.blueAccent
           actions: <Widget>[
             IconButton(
               icon: Icon(Icons.add_alert),
