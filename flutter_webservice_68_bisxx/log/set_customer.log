@@ -1,0 +1,14 @@
+2025-02-24 08:21:49 172.24.131.223 request:{
+    "cus_id":"44302025654",
+    "cus_name":"vakin chaisi",
+    "cus_username":"vakin@bis.com",
+    "cus_password":"ab12345"
+}
+response: {"result":0,"message":"Missing required fields"}
+2025-02-24 08:22:21 172.24.131.223 request:{
+    "cus_id":"44302025654",
+    "cus_name":"vakin chaisi",
+    "cus_username":"vakin@bis.com",
+    "cus_password":"ab12345"
+}
+response: {"result":1,"message":"Customer added successfully"}
