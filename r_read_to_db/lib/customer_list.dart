@@ -18,7 +18,7 @@ class _CustomerListPageState extends State<CustomerListPage> {
 
   Future<void> fetchCustomers() async {
     final response = await http.get(
-      Uri.parse("http://172.24.131.223/flutter_webservice_68_bisxx/get_customerlist.php")
+      Uri.parse("http://172.24.131.223/flutter_webservice_68_bisxx/get_customer_list.php")
     );
 
     if (response.statusCode == 200) {
